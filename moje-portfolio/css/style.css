@@ -2,8 +2,11 @@
  * General styles - START
  * 
  */
+
+ /* use padding, ur width don't change*/
+
 * {
-	box-sizing: border-box;	/* Używając paddingów, aby nie zmieniały się szerokości elementów */
+	box-sizing: border-box;	
 }
 
 body {
@@ -11,6 +14,9 @@ body {
 	color: #777;
 }
 
+h1{
+	font-size: 4.2em;
+}
 hr {
 	background-color: #007bff;
 	border: 0;
