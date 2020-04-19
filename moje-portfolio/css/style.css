@@ -143,7 +143,7 @@ footer {
 }
 
 .main-nav label,
-.main-nav #drop-nav {
+.main-nav #here-nav {
 	display: none;
 }
 
@@ -389,7 +389,7 @@ footer {
 		display: none;
 	}
 	
-	.main-nav #drop-nav:checked + ul {
+	.main-nav #here-nav:checked + ul {
 		display: block;
 	}
 	
