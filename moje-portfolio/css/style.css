@@ -206,21 +206,16 @@ footer {
 /* 
 
  * End --About styles-- * 
- 
+
  */
 
 
 
 
-
-
-
-
-
-
 /* 
- * Portfolio styles - START
- * 
+
+ * Start --Portfolio styles-- *
+
  */
 .portfolio {
 	background-color: #f2f1ed;
@@ -267,25 +262,25 @@ footer {
 	opacity: 1;
 	
 }
-/* 
- * Portfolio styles - START
- * 
+
+
+/*
+
+ * End --Portfolio styles-- *
+
  */
 
 
 
 
 
-
-
-
-
-
-
 /* 
- * Contact styles - START
- * 
+
+ * Start --Contact styles-- * 
+
  */
+
+
 .contact form {
 	max-width: 700px;
 	margin: 40px auto 30px auto;
@@ -326,8 +321,9 @@ footer {
 	color: #777;
 }
 /* 
- * Contact styles - START
- * 
+
+ * End --Contact styles--* 
+
  */
 
 
@@ -339,10 +335,12 @@ footer {
 
 
 
-/* 
- * Responsive CSS - START
- * 
- */
+
+
+
+
+
+/*  !!! Start --Responsive CSS -- !!!!   */
 @media (max-width: 1200px) {
 	.container {
 		max-width:992px;
@@ -418,7 +416,4 @@ footer {
 	}
 		
 }
-/* 
- * Responsive CSS - END
- * 
- */
+/* !!!End -- Responsive CSS -- !!!  */
