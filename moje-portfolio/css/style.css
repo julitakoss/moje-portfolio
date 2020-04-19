@@ -1,9 +1,9 @@
 /* 
- * General styles - START
- * 
+
+ * Start general styles *                      /use padding, ur width don't change/
+
  */
 
- /* use padding, ur width don't change*/
 
 * {
 	box-sizing: border-box;	
@@ -24,7 +24,7 @@ hr {
 	width: 70px;
 }
 
-.btn {
+.button {
 	text-decoration: none;
 	text-transform: uppercase;
 	border: 1px solid #007bff;
@@ -37,7 +37,7 @@ hr {
 	cursor: pointer;
 }
 
-.btn:hover {
+.button:hover {
 	background-color: #007bff;
 	color: #fff;
 }
@@ -70,23 +70,25 @@ footer {
 	padding: 30px;
 	text-align: center;
 }
+
+
 /* 
- * General styles - END
- * 
+
+ *End general styles *
+
  */
 
 
 
 
 
-
-
-
-
 /* 
- * Header styles - START
- * 
+
+ * START --Header styles--  * 
+
  */
+
+
 .main-header {
 	height: 70vh;
 	display: flex;
@@ -115,9 +117,12 @@ footer {
 .main-header p span {
 	color: #007bff;
 }
+
+
 /* 
- * Header styles - END
- * 
+
+ * End --Header styles--  * 
+
  */
 
 
@@ -125,14 +130,13 @@ footer {
 
 
 
-
-
-
-
 /* 
- * Navigation styles - END
- * 
+
+ * START --Nav styles-- * 
+
  */
+
+
 .main-nav {
 	position: sticky;
 	top: 0;
@@ -169,24 +173,23 @@ footer {
 	background-color: #fff;
 	color: #007bff;
 }
+
+
 /* 
- * Navigation styles - END
- * 
+
+ * End --Nav styles -- *
+
  */
 
 
 
-
-
-
-
-
-
-
 /* 
- * About styles - END
- * 
+
+ * Start --About styles-- * 
+
  */
+
+
 .about .about-image {
 	max-height: 420px;
 	max-width: 420px;
@@ -198,9 +201,12 @@ footer {
 	margin: 40px auto 30px auto;
 	line-height: 1.4;
 }
+
+
 /* 
- * About styles - END
- * 
+
+ * End --About styles-- * 
+ 
  */
 
 
@@ -221,20 +227,20 @@ footer {
 }
 
 
-.portfolio .portfolio-wrapper {
+.portfolio .portfolio-items {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between; 
 }
 
-.portfolio .portfolio-wrapper .portfolio-item {
+.portfolio .portfolio-items  .portfolio-item {
 	flex-basis: 25%;
 	height: 200px;
 	margin: 0;
 	position: relative;
 }
 
-.portfolio .portfolio-wrapper .portfolio-item img {
+.portfolio .portfolio-items .portfolio-item img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -242,7 +248,7 @@ footer {
 }
 
 
-.portfolio .portfolio-wrapper .portfolio-item h3 {
+.portfolio .portfolio-items .portfolio-item h3 {
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -257,7 +263,7 @@ footer {
 	margin: 0;
 }
 
-.portfolio .portfolio-wrapper .portfolio-item h3:hover {
+.portfolio .portfolio-items .portfolio-item h3:hover {
 	opacity: 1;
 	
 }
@@ -350,7 +356,7 @@ footer {
 		max-width:768px;
 	}
 	
-	.portfolio .portfolio-wrapper .portfolio-item {
+	.portfolio .portfolio-items  .portfolio-item {
 		flex-basis: 50%;
 	}
 }
@@ -362,7 +368,7 @@ footer {
 		max-width: 95%;
 	}
 	
-	.portfolio .portfolio-wrapper .portfolio-item {
+	.portfolio .portfolio-items .portfolio-item {
 		flex-basis: 100%;
 	}
 }
